@@ -38,6 +38,7 @@ public class ExcelUtility extends JavaUtility {
 		Row ro = sh.getRow(RowNo);
 		Cell cel = ro.getCell(ColumnNo);
 		String value = cel.getStringCellValue();
+		wb.close();
 		return value;
 	}
 
@@ -61,7 +62,6 @@ public class ExcelUtility extends JavaUtility {
 		cel.setCellValue(data);
 		FileOutputStream fos = new FileOutputStream(IPathConstants.ExcelPath);
 		wb.write(fos);
-		wb.close();
 	}
 
 	/**
