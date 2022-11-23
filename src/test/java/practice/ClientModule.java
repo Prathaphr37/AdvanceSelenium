@@ -1,9 +1,8 @@
-
+package practice;
 
 import java.io.File;
 
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -12,7 +11,6 @@ import com.LIMS.GenericUtility.BaseClass;
 import objectRepositry.AddClientPage;
 import objectRepositry.ClientInformationPage;
 import objectRepositry.HomePage;
-
 
 @Listeners(com.LIMS.GenericUtility.ListenerImplementationClass.class)
 public class ClientModule extends BaseClass{
