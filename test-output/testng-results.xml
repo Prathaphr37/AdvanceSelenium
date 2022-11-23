@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[addClient   Test Script Execution is Started]]>
+    </line>
+    <line>
+      <![CDATA[addClient Test Script Execution Skipped]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="302" started-at="2022-11-23T13:01:19 IST" finished-at="2022-11-23T13:01:19 IST">
+    <groups>
+      <group name="integration">
+        <method signature="ClientModule.addClient()[pri:0, instance:testScripts.ClientModule@37374a5e]" name="addClient" class="testScripts.ClientModule"/>
+      </group> <!-- integration -->
+    </groups>
+    <test name="Default test" duration-ms="302" started-at="2022-11-23T13:01:19 IST" finished-at="2022-11-23T13:01:19 IST">
+      <class name="testScripts.ClientModule">
+        <test-method status="PASS" signature="connectToDataBase()[pri:0, instance:testScripts.ClientModule@37374a5e]" name="connectToDataBase" is-config="true" duration-ms="189" started-at="2022-11-23T13:01:18 IST" finished-at="2022-11-23T13:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectToDataBase -->
+        <test-method status="FAIL" signature="launchBrowser()[pri:0, instance:testScripts.ClientModule@37374a5e]" name="launchBrowser" is-config="true" duration-ms="0" started-at="2022-11-23T13:01:19 IST" finished-at="2022-11-23T13:01:19 IST">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[.\src\test\resources\commondata.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\commondata.properties (The system cannot find the file specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at com.LIMS.GenericUtility.FileUtility.readDataFromPropertyFile(FileUtility.java:19)
+at com.LIMS.GenericUtility.BaseClass.launchBrowser(BaseClass.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="SKIP" signature="loginToApplication()[pri:0, instance:testScripts.ClientModule@37374a5e]" name="loginToApplication" is-config="true" duration-ms="-1669188679335" started-at="2022-11-23T13:01:19 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="SKIP" signature="addClient()[pri:0, instance:testScripts.ClientModule@37374a5e]" name="addClient" duration-ms="0" started-at="2022-11-23T13:01:19 IST" finished-at="2022-11-23T13:01:19 IST">
+          <exception class="java.io.FileNotFoundException">
+            <message>
+              <![CDATA[.\src\test\resources\commondata.properties (The system cannot find the file specified)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.io.FileNotFoundException: .\src\test\resources\commondata.properties (The system cannot find the file specified)
+at java.io.FileInputStream.open0(Native Method)
+at java.io.FileInputStream.open(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at java.io.FileInputStream.<init>(Unknown Source)
+at com.LIMS.GenericUtility.FileUtility.readDataFromPropertyFile(FileUtility.java:19)
+at com.LIMS.GenericUtility.BaseClass.launchBrowser(BaseClass.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.io.FileNotFoundException -->
+          <reporter-output>
+            <line>
+              <![CDATA[addClient Test Script Execution Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addClient -->
+        <test-method status="SKIP" signature="logoutFromApplication()[pri:0, instance:testScripts.ClientModule@37374a5e]" name="logoutFromApplication" is-config="true" duration-ms="-1669188679367" started-at="2022-11-23T13:01:19 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method status="SKIP" signature="closeBrowser()[pri:0, instance:testScripts.ClientModule@37374a5e]" name="closeBrowser" is-config="true" duration-ms="-1669188679367" started-at="2022-11-23T13:01:19 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="closeDataBase()[pri:0, instance:testScripts.ClientModule@37374a5e]" name="closeDataBase" is-config="true" duration-ms="16" started-at="2022-11-23T13:01:19 IST" finished-at="2022-11-23T13:01:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDataBase -->
+      </class> <!-- testScripts.ClientModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
