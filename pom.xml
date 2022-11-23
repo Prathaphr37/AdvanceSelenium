@@ -15,17 +15,11 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>3.0.0-M7</version>
 					<configuration>
-
 						<suiteXmlFiles>
 							<suiteXmlFile>testngbatch1.xml</suiteXmlFile>
-						</suiteXmlFiles>
-
-						<suiteXmlFiles>
 							<suiteXmlFile>testngbatch2.xml</suiteXmlFile>
 						</suiteXmlFiles>
-
 					</configuration>
-
 				</plugin>
 
 				<plugin>
