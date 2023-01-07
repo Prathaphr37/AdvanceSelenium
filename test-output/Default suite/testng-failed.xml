@@ -3,17 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.ClientModule">
+      <class name="practice.CalenderPopUp">
         <methods>
-          <include name="closeBrowser"/>
-          <include name="launchBrowser"/>
-          <include name="addClient"/>
-          <include name="connectToDataBase"/>
-          <include name="loginToApplication"/>
-          <include name="logoutFromApplication"/>
-          <include name="closeDataBase"/>
+          <include name="calender"/>
         </methods>
-      </class> <!-- testScripts.ClientModule -->
+      </class> <!-- practice.CalenderPopUp -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

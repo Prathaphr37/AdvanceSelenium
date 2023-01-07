@@ -1,8 +1,11 @@
 package practice;
 
+import org.testng.annotations.Test;
+
 public class P1 {
 
-	public static void main(String[] args) {
+	@Test
+	public void simple() {
 		int a=100;
 		System.out.println(a);
 	}

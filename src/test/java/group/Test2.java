@@ -9,7 +9,7 @@ public class Test2 {
 	@Test
 	public void create()
 	{
-		System.out.println("created 1");
+		System.out.println("test2 created 1");
 	}
 	
 	@Test(groups="regression")
