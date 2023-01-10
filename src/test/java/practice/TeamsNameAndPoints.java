@@ -9,15 +9,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class TeamsNameAndPoints {
 
 	@Test
 	public void teamNamesAndPoints() {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
-		WebDriverManager.chromedriver().setup();
+		
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.icc-cricket.com/rankings/mens/team-rankings/t20i");
 		List<WebElement> names = driver.findElements(By.xpath("//span[@class='u-hide-phablet']"));

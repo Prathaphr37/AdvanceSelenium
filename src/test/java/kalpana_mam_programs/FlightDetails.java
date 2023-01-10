@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class FlightDetails {
 
@@ -19,7 +19,7 @@ public class FlightDetails {
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-notifications");
 
-		WebDriverManager.chromedriver().setup();
+		//WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver(options);
 		driver.get("https://www.irctc.co.in");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

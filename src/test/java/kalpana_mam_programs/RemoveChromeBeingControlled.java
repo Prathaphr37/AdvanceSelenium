@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 //program to remove chrome is being controlled by automated test software using string array , Array, Collections
 public class RemoveChromeBeingControlled {
 
@@ -35,8 +35,6 @@ public class RemoveChromeBeingControlled {
 		
 		//this is applicable only for old versions chrome
 		options.addArguments("--disable-infobars");
-		
-		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver(options);
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.com");
